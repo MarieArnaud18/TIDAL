@@ -1,7 +1,7 @@
 body { 
     display : block;
     color: rgb(0, 0, 0);
-    background-image:url('/fs03/share/users/paul.chretien/home/Bureau/TIDAL/connexion.jpg');
+    background-image:url('../connexion.jpg');
     margin:0;
     padding:0;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
