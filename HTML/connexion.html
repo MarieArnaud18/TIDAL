@@ -28,20 +28,13 @@
 
         <fieldset class="connexion">
         <div class="container1">
-            <form id="formulaire">
+            <form id="formulaire" action="../PHP/pdo.php" method="post">
                 <h2>Connexion</h2>
-
-                <label for="usrname">Nom d'utilisateur : </label>
-                <input type="text" id="usrname" name="usrname" required>
-                <br>
-        
-                <label for="psw">Mot de Passe : </label>
-                <input type="password" id="psw" name="psw" required>
-            
-                <div class ="button-submit">
-                    <input onclick="checkuser()" type="button" value="Se connecter">
-                </div>
+                    user: <input type="text" name="user"><br>
+                    pwd: <input type="text" name="pwd"><br>
+                    <input type="submit">
             </form>
+            
         </div>
         </fieldset>
 
